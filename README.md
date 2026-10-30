@@ -32,6 +32,7 @@ It is intentionally simple for now, but designed to become a polished, community
 | emet | Grounded web research MCP plugin for Codex with live sources, cited answers, and current-doc lookup; install via `codex plugin marketplace add https://github.com/endgegnerbert-tech/emet`. | <https://github.com/endgegnerbert-tech/emet> |
 | agenttrace | Local-first trace analysis and CI regression gates for Codex and AI coding agent sessions. | <https://github.com/luoyuctl/agenttrace> |
 | codex-patch-overlay | Patched Codex CLI builds carrying community-requested features upstream hasn't merged yet (live TUI reasoning streaming, completion sound, WebP image input, timed CLI queueing). Install by downloading a release binary (macOS arm64 / Linux x86_64-musl, sha256-checksummed) or via the Nix overlay `github:salty-flower/codex-patch-overlay/latest-release`. | <https://github.com/salty-flower/codex-patch-overlay> |
+| /call-me | Codex plugin that lets an agent ring or text your phone (iPhone or Android) through the hosted MCP server at callmemcp.com and hands your spoken or typed reply back as text. The phone app is paid (weekly or yearly subscription). Clone the repo, then run `codex mcp add callme -- node "$PWD/codex/mcp.mjs"`. | <https://github.com/radres/call-me> |
 
 > Note: Add focused plugins, tools, and integrations that improve Codex-oriented workflows.
 
